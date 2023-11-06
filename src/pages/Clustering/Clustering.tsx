@@ -8,7 +8,7 @@ import { Typography } from '@material-ui/core';
 import { EmptyRow } from '../../components/EmptyRow';
 
 export const Clustering = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   return (
     <div className='Clustering'>
       <Grid id='top-row' container spacing={5}>

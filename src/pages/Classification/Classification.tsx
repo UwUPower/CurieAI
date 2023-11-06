@@ -45,7 +45,7 @@ const ButtonWrapper = styled.div`
 `;
 
 export const Classification = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <ClassificationPageWrapper>
